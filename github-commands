@@ -1,2 +1,6 @@
+SET NOREPLY EMAIL ADDRESS FOR PUSHING TO REMOTE REPO
+git config --global user.email "56142442+a-lakhani@users.noreply.github.com"
+
+
 CREATE NEW GITHUB REPO FROM COMMAND LINE
 curl -u a-lakhani https://api.github.com/user/repos -d '{"name":"NEW_REPO_NAME", "visibility":"private"}
