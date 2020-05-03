@@ -1,0 +1,1 @@
+/mnt/SharedHome/.zshrc

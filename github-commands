@@ -8,7 +8,9 @@ git config --global user.email "56142442+a-lakhani@users.noreply.github.com"
 
 ssh-keygen [OPTIONAL: -t ed25519]
 
---------CREATE NEW GITHUB REPO FROM COMMAND LINE
+--------CREATE NEW GITHUB REPO VIA API
 
-curl -u a-lakhani https://api.github.com/user/repos -d '{"name":"NEW_REPO_NAME", "visibility":"private"}
+curl -u a-lakhani -X POST -d '{"name":"NEW_REPO_NAME", "visibility":"private"}' https://api.github.com/user/repos
 
+--------RENAME GITHUB REPO VIA API
+curl -u a-lakhani -X PATCH -d '{"name": "NewName"}' https://api.github.com/repos/a-lakhani/$oldName
