@@ -1,1 +1,0 @@
-/mnt/SharedHome/.vim
