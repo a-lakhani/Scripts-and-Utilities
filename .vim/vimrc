@@ -1,0 +1,88 @@
+" Don't try to act like vi 
+set nocompatible
+
+" enable syntax and plugins
+syntax enable
+filetype plugin on
+
+" tab settings and autoindent
+set autoindent
+set tabstop=4 shiftwidth=4
+
+" Set linewidth to 80 to comply with 42 norm
+set textwidth=80
+
+" Don't add \n or EOL at end of file, to comply with some picky 42 assignments
+set nofixendofline
+
+" line numbering
+set number
+set relativenumber
+set ruler
+
+" use system clipboard
+set clipboard=unnamed
+
+" syntax coloring
+syntax on
+
+" Let cursor wrap around line endings and beginnings
+" letting h and l wrap may have unintended side effects, remove them from
+" whichwrap if plugins have problems
+set whichwrap+=h,l,<,>,[,]
+
+" Let backspace (and delete?) wrap around line endings and beginnings
+set backspace=indent,eol,start
+
+" Fix Ctrl-Arrow mapping. Need to use exact escape sequences for some terminals
+imap [1;5D <C-Left>
+imap [1;5C <C-Right>
+"" Repeating for normal & visual modes
+map [1;5D <C-Left>
+map [1;5C <C-Right>
+
+" Alternate mapping for skipping words
+imap <C-H> <C-Left>
+imap <C-L> <C-Right>
+"" Repeating for normal & visual modes
+map <C-H> <C-Left>
+map <C-L> <C-Right>
+
+" Easier navigation of split panes
+"" Alt-Arrow keys but need to use exact escape sequences for some terminals
+nmap [1;3D <C-W><C-H>
+nmap [1;3B <C-W><C-J>
+nmap [1;3A <C-W><C-K>
+nmap [1;3C <C-W><C-L>
+"" Repeat for insert mode
+imap [1;3D <Esc><C-W><C-H>
+imap [1;3B <Esc><C-W><C-J>
+imap [1;3A <Esc><C-W><C-K>
+imap [1;3C <Esc><C-W><C-L>
+
+""" Repeat for homerow navigation
+""" Not working in Alacritty, may work in other terminals
+nmap <A-H> <C-W><C-H>
+nmap <A-J> <C-W><C-J>
+nmap <A-K> <C-W><C-K>
+nmap <A-L> <C-W><C-L>
+
+imap <A-H> <Esc><C-W><C-H>
+imap <A-J> <Esc><C-W><C-J>
+imap <A-K> <Esc><C-W><C-K>
+imap <A-L> <Esc><C-W><C-L>
+
+" Change default location of new split panes
+set splitbelow
+set splitright
+
+" Slightly more convenient way to enter colon commands
+"nnoremap ; :
+"vnoremap ; :
+
+" Alias for sourcing vimrc
+command SO source $HOME/.vim/vimrc
+
+" Enter Visual mode directly from Insert mode
+"imap <C-B> <Esc><C-V>| " Visual Block
+imap <C-B> <Esc><S-V>| " Visual Line
