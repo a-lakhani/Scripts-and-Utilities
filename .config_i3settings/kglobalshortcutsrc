@@ -1,8 +1,8 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-852d0b42-2243-4b85-9cc3-eaad26d975d3=Ctrl+Alt+1,none,Switch to activity "Activity 1"
-switch-to-activity-94ccad87-4a14-42e0-89b9-70a2746ac42a=Ctrl+Alt+2,none,Switch to activity "Activity 2"
-switch-to-activity-e2297cec-5a5f-4be7-9e31-f6a094e68409=Ctrl+Alt+3,none,Switch to activity "Activity 3"
+switch-to-activity-852d0b42-2243-4b85-9cc3-eaad26d975d3=,none,Switch to activity "Activity 1"
+switch-to-activity-94ccad87-4a14-42e0-89b9-70a2746ac42a=,none,Switch to activity "Activity 2"
+switch-to-activity-e2297cec-5a5f-4be7-9e31-f6a094e68409=,none,Switch to activity "Activity 3"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -305,7 +305,7 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=none,Meta+E,Dolphin
+_launch=Ctrl+Alt+E,Meta+E,Dolphin
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
@@ -315,9 +315,9 @@ _launch=Meta+.,Meta+.,Emoji Selector
 ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
 CurrentMonitorScreenShot=,none,Capture Current Monitor
 FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
-RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+RectangularRegionScreenShot=Print,Meta+Shift+Print,Capture Rectangular Region
 _k_friendly_name=Spectacle
-_launch=Print,Print,Launch Spectacle
+_launch=Meta+Shift+Print,Print,Launch Spectacle
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -333,16 +333,16 @@ _k_friendly_name=Power Management
 
 [plasmashell]
 _k_friendly_name=Plasma
-activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
-activate task manager entry 10=Meta+0,Meta+0,Activate Task Manager Entry 10
-activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
-activate task manager entry 3=Meta+3,Meta+3,Activate Task Manager Entry 3
-activate task manager entry 4=Meta+4,Meta+4,Activate Task Manager Entry 4
-activate task manager entry 5=Meta+5,Meta+5,Activate Task Manager Entry 5
-activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
-activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
-activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
-activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate task manager entry 1=Ctrl+Alt+1,Meta+1,Activate Task Manager Entry 1
+activate task manager entry 10=Ctrl+Alt+0,Meta+0,Activate Task Manager Entry 10
+activate task manager entry 2=Ctrl+Alt+2,Meta+2,Activate Task Manager Entry 2
+activate task manager entry 3=Ctrl+Alt+3,Meta+3,Activate Task Manager Entry 3
+activate task manager entry 4=Ctrl+Alt+4,Meta+4,Activate Task Manager Entry 4
+activate task manager entry 5=Ctrl+Alt+5,Meta+5,Activate Task Manager Entry 5
+activate task manager entry 6=Ctrl+Alt+6,Meta+6,Activate Task Manager Entry 6
+activate task manager entry 7=Ctrl+Alt+7,Meta+7,Activate Task Manager Entry 7
+activate task manager entry 8=Ctrl+Alt+8,Meta+8,Activate Task Manager Entry 8
+activate task manager entry 9=Ctrl+Alt+9,Meta+9,Activate Task Manager Entry 9
 activate widget 40=none,none,Activate Task Manager Widget
 activate widget 8=none,none,Activate Digital Clock Widget
 clear-history=none,none,Clear Clipboard History

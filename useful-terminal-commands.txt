@@ -1,0 +1,2 @@
+" readout input codes
+xev | grep button

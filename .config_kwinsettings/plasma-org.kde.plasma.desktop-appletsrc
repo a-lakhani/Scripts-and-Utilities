@@ -20,7 +20,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][20]
 activityId=852d0b42-2243-4b85-9cc3-eaad26d975d3
@@ -42,7 +42,7 @@ PreloadWeight=0
 url=/home/adl/Desktop
 
 [Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][21]
 activityId=
@@ -65,7 +65,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][21][Applets][25][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 SystrayContainmentId=26
 
 [Containments][21][Applets][27]
@@ -119,7 +119,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][26][Applets][29][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][26][Applets][29][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -244,7 +244,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][42][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][43]
 activityId=e2297cec-5a5f-4be7-9e31-f6a094e68409
@@ -259,7 +259,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][43][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][44]
 activityId=94ccad87-4a14-42e0-89b9-70a2746ac42a
@@ -274,7 +274,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][44][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][45]
 activityId=94ccad87-4a14-42e0-89b9-70a2746ac42a
@@ -289,7 +289,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][45][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][46]
 activityId=852d0b42-2243-4b85-9cc3-eaad26d975d3
@@ -304,7 +304,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][46][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][47]
 activityId=e2297cec-5a5f-4be7-9e31-f6a094e68409
@@ -319,7 +319,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][47][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [Containments][48]
 activityId=94ccad87-4a14-42e0-89b9-70a2746ac42a
@@ -334,8 +334,8 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][48][Wallpaper][org.kde.image][General]
-Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-ccf2f996d74d516f0fea08672841d2c0.jpg
+Image=file:///home/adl/.config/variety/wallpaper/wallpaper-clock-fbaffd941129aad6c0a450c05eb05120.jpg
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,3,desktop:/MyUsefulShortcuts.md,desktop:/vim-cheatsheet.pdf,desktop:/Yakuake shortcuts.png
+itemsOnDisabledScreens=0,3,desktop:/vim-cheatsheet.pdf,desktop:/MyUsefulShortcuts.md,desktop:/Yakuake shortcuts.png
 screenMapping=file:///home/adl/Desktop/vim-cheatsheet.pdf,1,file:///home/adl/Desktop/Yakuake shortcuts.png,1,file:///home/adl/Desktop/MyUsefulShortcuts.md,1,desktop:/MyUsefulShortcuts.md,0,desktop:/vim-cheatsheet.pdf,0,desktop:/Yakuake shortcuts.png,0

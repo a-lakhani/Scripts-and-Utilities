@@ -34,6 +34,12 @@ set whichwrap+=h,l,<,>,[,]
 " Let backspace (and delete?) wrap around line endings and beginnings
 set backspace=indent,eol,start
 
+" Go back to middle of newly created <tags>
+inoremap <> <>OD
+
+" Only wait 500 ms to detect key mappings
+set timeoutlen=500
+
 " Fix Ctrl-Arrow mapping. Need to use exact escape sequences for some terminals
 imap [1;5D <C-Left>
 imap [1;5C <C-Right>
@@ -61,7 +67,12 @@ imap [1;3A <Esc><C-W><C-K>
 imap [1;3C <Esc><C-W><C-L>
 
 """ Repeat for homerow navigation
-""" Not working in Alacritty, may work in other terminals
+""" set <A-*> needed for vim to recognize key combo sent by terminal
+set <A-H>=h
+set <A-J>=j
+set <A-K>=k
+set <A-L>=l
+
 nmap <A-H> <C-W><C-H>
 nmap <A-J> <C-W><C-J>
 nmap <A-K> <C-W><C-K>
