@@ -3,16 +3,16 @@ set nocompatible
 
 " enable syntax and plugins
 syntax enable
-filetype plugin on
+filetype plugin indent on
 
-" tab settings and autoindent
+" expand tabs to four spaces, and autoindent using the same style
 set autoindent
-set tabstop=4 shiftwidth=4
+set tabstop=4 shiftwidth=4 expandtab
 
-" Set linewidth to 80 to comply with 42 norm
-set textwidth=80
+" Set linewidth to 72 to comply with PEP8
+set textwidth=72
 
-" Don't add \n or EOL at end of file, to comply with some picky 42 assignments
+" Don't add \n or EOL at end of file
 set nofixendofline
 
 " line numbering
@@ -29,10 +29,10 @@ syntax on
 " Let cursor wrap around line endings and beginnings
 " letting h and l wrap may have unintended side effects, remove them from
 " whichwrap if plugins have problems
-set whichwrap+=h,l,<,>,[,]
+set whichwrap += h,l,<,>,[,]
 
 " Let backspace (and delete?) wrap around line endings and beginnings
-set backspace=indent,eol,start
+set backspace = indent,eol,start
 
 " Go back to middle of newly created <tags>
 inoremap <> <>OD
@@ -88,8 +88,8 @@ set splitbelow
 set splitright
 
 " Slightly more convenient way to enter colon commands
-"nnoremap ; :
-"vnoremap ; :
+nnoremap ; :
+vnoremap ; :
 
 " Alias for sourcing vimrc
 command SO source $HOME/.vim/vimrc
@@ -97,3 +97,21 @@ command SO source $HOME/.vim/vimrc
 " Enter Visual mode directly from Insert mode
 "imap <C-B> <Esc><C-V>| " Visual Block
 imap <C-B> <Esc><S-V>| " Visual Line
+
+""" COPIED FROM WSL UBUNTU DEFAULT VIMRC
+
+" Uncomment the following to have Vim load indentation rules and plugins
+" according to the detected filetype.
+"filetype plugin indent on
+"
+" The following are commented out as they cause vim to behave a lot
+" differently from regular Vi. They are highly recommended though.
+" set showcmd            " Show (partial) command in status line.
+" set showmatch          " Show matching brackets.
+" set ignorecase         " Do case insensitive matching
+" set smartcase          " Do smart case matching
+" set incsearch          " Incremental search
+" set autowrite          " Automatically save before commands like :next and
+" :make
+" set hidden             " Hide buffers when they are abandoned
+set mouse=a            " Enable mouse usage (all modes)
